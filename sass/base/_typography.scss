@@ -1,0 +1,129 @@
+
+// poppins & dancing google font link
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@font-face {
+    font-family: Rodetta Stamp;
+    src: url(/fonts/RodettaStamp-9Y4jK.woff);
+ }
+ @font-face {
+    font-family: Visby CF Regular;
+    src: url(/fonts/VisbyRegular.woff);
+ }
+ @font-face {
+    font-family: Visby CF bld;
+    src: url(/fonts/VisbyBold.woff);
+ }
+ @font-face {
+    font-family: Visby CF Heavy;
+    src: url(/fonts/VisbyHeavy.woff);
+ }
+
+ @font-face {
+    font-family: Visby CF MD;
+    src: url(/fonts/VisbyMedium.woff);
+ }
+
+//font family
+// $primary-font : 'Poppins', sans-serif;
+// $secondary-font : 'Dancing Script', cursive;
+$primary-font : Rodetta Stamp;
+$secondary-font : Visby CF MD;
+$tertiary-font : Visby CF Regular;
+$bold-font: Visby CF bld;
+$heavy-font: Visby CF Heavy;
+
+
+body{
+    font-family: $secondary-font;
+    h1,h2,h5, h4{font-family: $primary-font !important;}
+    // h2{font-family: $heavy-font;}
+    
+    p{font-family: $tertiary-font; }
+    h3,h6{font-family: $bold-font;}
+
+}
+
+// fonts sizes
+$heading-font-size: 1.875rem;
+$title-font-size: 1.375rem;
+
+$text-font-size-large: 1.1669rem;
+$text-font-size: 1rem;
+$text-font-size-small: 0.875rem;
+$text-extra-small: 0.7919rem;
+
+// fonts weight
+$font-thin: 100;
+$font-extra-light: 200;
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+$font-extra-bold: 800;
+$font-black: 900;
+
+
+// media
+@media (max-width: 768px){
+//     h1{
+//         font-size: 110% ;
+//     }
+//     h2{
+//         font-size: 95% ;
+//     }
+//     h3{
+//         font-size: 90% ;
+//     }
+//     h4{
+//         font-size: 85% ;
+//     }
+//     h5{
+//         font-size: 85% ;
+//     }
+//     h6{
+//         font-size: 80% ;
+//     }
+//     p{
+//         font-size: .75rem ;
+//     }
+    li, input, button, select, span, a, textarea{
+        font-size: .8rem ;
+    }
+    small{
+        font-size: .7rem ;
+    }
+}
+
+@media (max-width: 1200px){
+//     h1{
+//         font-size: 180%;
+//     }
+//     h2{
+//         font-size: 160%;
+//     }
+//     h3{
+//         font-size: 140%;
+//     }
+//     h4{
+//         font-size: 120%;
+//     }
+//     h5{
+//         font-size: 100%;
+//     }
+//     h6{
+//         font-size: 80%;
+//     }
+//     p{
+//         font-size: .87rem;
+//     }
+    li, input, button, select, span, a{
+        font-size: .85rem !important;
+    }
+    small{
+        font-size: .75rem !important;
+    }
+}
+
